@@ -1,0 +1,40 @@
+body{
+  background: linear-gradient(
+    to left,
+    #3c4043 0%,
+    #3c4043 50%,
+    #ffc107 50%,
+    #ffc107 100%
+  );
+}
+#container_app{
+  width: 800px;
+margin: auto;
+margin-top: 10%;
+text-align: center;
+}
+img{
+  height: 120px;
+  aspect-ratio: auto;
+}
+#div_info{
+  display: inline-block;
+  vertical-align: top;
+float: right;
+text-align: right;
+}
+#img_modal{
+  height: 250px;
+  text-align: left;
+   display: inline-block;
+   vertical-align: top;
+}
+#div_body{
+  position: relative;
+}
+.ukryty{
+  display: none;
+}
+.paragraph{
+  margin-top: 0;
+}
